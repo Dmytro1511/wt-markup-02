@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+header li {
+    margin: 0 10px;
+}
+header a {
+    color: #757575;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+header a:hover {
+    color: #2196F3;
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    margin: auto;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a {
+    text-align: left;
+    color: #212121;
+}
+.heads {
+    width: 100%;
+    height: 600px;
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.heads h1 {
+    width: 1048px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.heads button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    cursor: pointer;
+}
+.images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #212121;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.images h2 {
+    letter-spacing: 6%;
+    font-size: 36px;
+    font-weight: 900;
+}
+.images ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.images li {
+    margin: 10px;
+}
+.images img {
+    color: #C4C4C4;
+    border-radius: 10px;
+}
