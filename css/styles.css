@@ -1,5 +1,7 @@
 header {
+    height: 80px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +15,10 @@ header ul {
     margin-right: auto;
 }
 header li {
-    margin: 0 10px;
+    margin: 20px;
+}
+header svg {
+    fill: #757575;
 }
 header a {
     color: #757575;
@@ -26,21 +31,32 @@ header a {
 header a:hover {
     color: #2196F3;
 }
+header a:hover svg {
+    fill: #2196F3;
+}
 nav {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
-.logo {
+nav .logo {
+    margin-right: 100px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-size: 26px;
     margin: auto;
 }
 nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
+}
+nav li {
+    margin-left: 20px;
 }
 nav a {
     text-align: left;
@@ -89,7 +105,7 @@ nav a {
     font-family: 'Roboto', sans-serif;
 }
 .images h2 {
-    letter-spacing: 6%;
+    letter-spacing: 3%;
     font-size: 36px;
     font-weight: 900;
 }
@@ -106,4 +122,73 @@ nav a {
 .images img {
     color: #C4C4C4;
     border-radius: 10px;
+}
+.team {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5F4FA;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.team h2 {
+    letter-spacing: 3%;
+    font-size: 36px;
+    font-weight: 900;
+}
+.team .team_list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.team .person {
+    margin: 10px;
+    width: 270px;
+    height: 428px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.team p {
+    letter-spacing: 3%;
+    font-size: 16px;
+}
+.team .name {
+    font-weight: 500;
+}
+.team .description {
+    font-weight: 400;
+    color: #757575;
+}
+.team .social_network {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.team .social_network li a {
+    margin: 5px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team .social_network li a svg {
+    fill: #AFB1B8;
+}
+.team .social_network li a:hover {
+    background-color: #2196F3;
+    fill: #ffffff;
+}
+.team .social_network li a:hover svg {
+    background-color: #2196F3;
+    fill: #ffffff;
 }
