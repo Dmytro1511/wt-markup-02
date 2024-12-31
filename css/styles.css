@@ -1,22 +1,16 @@
+body {
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
 header {
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 header ul {
-    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: auto;
-    margin-right: auto;
 }
-header li {
-    margin: 20px;
-}
+header li {}
 header svg {
     fill: #757575;
 }
@@ -24,7 +18,6 @@ header a {
     color: #757575;
     text-decoration: none;
     margin: 0 15px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
 }
@@ -34,56 +27,28 @@ header a:hover {
 header a:hover svg {
     fill: #2196F3;
 }
-nav {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-nav .logo {
-    margin-right: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 26px;
-    margin-right: 51px;
-}
+nav .logo {}
 nav ul {
-    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 51px;
 }
-nav li {
-    margin-left: 20px;
-}
+nav li {}
 nav a {
     text-align: left;
     color: #212121;
 }
 .heads {
-    width: 100%;
-    height: 600px;
     background-color: #2F303A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: white;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
 }
 .heads h1 {
-    width: 1048px;
     line-height: 60px;
     letter-spacing: 6%;
     font-size: 44px;
     text-transform: uppercase;
     font-weight: 900;
 }
-.heads button {
-    width: 200px;
-    height: 50px;
+button {
     background-color: #2196F3;
     color: white;
     border: none;
@@ -96,22 +61,22 @@ nav a {
 }
 .advantages {
     letter-spacing: 3%;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 .advantages ul {
-    display: flex;
-    justify-content: center;
     list-style: none;
 }
 .advantages ul li {
     width: 270px;
     height: 251px;
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
 }
-.advantages h3 {
+h2 {
+    color: #212121;
+}
+h3 {
+    color: #212121;
+    letter-spacing: 3%;
+    font-size: 14px;
     text-align: left;
     font-weight: 700;
     text-transform: uppercase;
@@ -120,12 +85,9 @@ nav a {
     margin-bottom: 10px;
 }
 .advantages p {
-    font-weight: 400;
     line-height: 24px;
 }
 .advantages .advantages-images {
-    padding-top: 25px;
-    padding-bottom: 25px;
     border: none;
     border-radius: 4px;
     background-color: #F5F4FA;
@@ -134,13 +96,9 @@ nav a {
     align-items: center;
 }
 .images {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     color: #212121;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
 }
 .images h2 {
     letter-spacing: 3%;
@@ -148,8 +106,6 @@ nav a {
     font-weight: 700;
 }
 .images ul {
-    display: flex;
-    justify-content: center;
     padding: 0;
     list-style: none;
 }
@@ -177,15 +133,9 @@ nav a {
     font-weight: 700;
 }
 .team .team-list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
     list-style: none;
 }
 .team .person {
-    margin: 30px;
-    width: 270px;
-    height: 428px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 10px;
@@ -196,81 +146,76 @@ nav a {
     font-size: 16px;
 }
 .team .name {
+    color: #212121;
     font-weight: 500;
 }
-.team .description {
-    font-weight: 400;
-    color: #757575;
-}
 .team .social-network {
-    display: flex;
-    justify-content: center;
-    padding: 0;
     list-style: none;
-    margin: 0;
 }
-.team .social-network li a {
+.social-network li a {
     margin: 5px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.team .social-network li a svg {
+.social-network li a svg {
     fill: #AFB1B8;
 }
-.team .social-network li a:hover {
+.social-network li a:hover {
     background-color: #2196F3;
     fill: #ffffff;
 }
-.team .social-network li a:hover svg {
+.social-network li a:hover svg {
     background-color: #2196F3;
     fill: #ffffff;
 }
 footer {
+    font-size: 16px;
     background-color: #2F303A;
     color: #ffffff;
-    display: flex;
-    margin: auto;
 }
 footer a {
     text-decoration: none;
     color: #ffffff;
 }
 footer ul {
-    display: flex;
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 footer address {
-    margin-top: 20px;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 3%;
+    font-style: normal;
     text-align: left;
-    justify-content: start;
 }
 footer address ul {
-    display: block;
     list-style: none;
-    padding-left: 0;
-    margin-left: 0;
 }
-footer address li {
-    margin-top: 9px;
-}
-footer ul li {
-    margin-left: 10px;
-    margin-right: auto;
+footer address ul li {
+    opacity: 60%;
 }
 footer .social-network li a {
     margin: 5px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(255,
+    255,
+    255, 0.1);
+}
+footer svg {
+    fill: #ffffff;
+}
+footer h3 {
+    color: #ffffff;
+}
+footer input {
+    background-color: transparent;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
