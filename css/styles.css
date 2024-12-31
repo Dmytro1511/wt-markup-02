@@ -230,3 +230,47 @@ nav a {
     background-color: #2196F3;
     fill: #ffffff;
 }
+footer {
+    background-color: #2F303A;
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer address {
+    margin-top: 20px;
+    text-align: left;
+    justify-content: start;
+}
+footer address ul {
+    display: block;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+footer address li {
+    margin-top: 9px;
+}
+footer ul li {
+    margin-left: 10px;
+    margin-right: auto;
+}
+footer .social-network li a {
+    margin: 5px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
